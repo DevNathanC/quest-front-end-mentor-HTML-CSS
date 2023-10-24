@@ -1,0 +1,48 @@
+@media (max-width: 425px) {
+  body {
+    background: url(../images/bg-mobile.svg) center center no-repeat;
+    background-size: cover;
+    background-color: var(--main-color-bg);
+  }
+  .container-main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-main img {
+    width: 400px;
+  }
+
+  .container-main .main-info {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin-left: 0px;
+  }
+
+  .container-main .main-info button {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+
+  .container-contact {
+    justify-content: center;
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    background: url(../images/bg-mobile.svg) center center no-repeat;
+    background-size: cover;
+    background-color: var(--main-color-bg);
+  }
+  .container-main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-main .main-info {
+    gap: 10px;
+  }
+}
